@@ -1,0 +1,14 @@
+.cinemaSelect {
+   background-color: var(--clr-bg3);
+   border-bottom: 1px solid;
+   border-color: var(--clr-border1);
+}
+
+.movieList {
+   transform: translateY(-5%);
+   transition: transform 0.3s ease;
+
+   &.active {
+      transform: translateY(0);
+   }
+}

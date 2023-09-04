@@ -1,0 +1,22 @@
+.checkout {
+   background-color: var(--clr-white);
+   color: var(--clr-black);
+   position: relative;
+   height: auto;
+
+   @media (min-width: 960px) {
+      height: 90vh;
+   }
+
+   .main {
+      width: 100%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+
+      @media (min-width: 960px) {
+         flex-direction: row;
+      }
+   }
+}
